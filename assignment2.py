@@ -40,7 +40,7 @@ while True:
             pass
     except:
         with open ('assignments/user_json.json','w') as jsonCreate:
-            pass
+            json.dump({},jsonCreate)
     
     os.system('clear')
 
